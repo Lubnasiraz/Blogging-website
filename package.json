@@ -1,0 +1,28 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "this is my blog website",
+  "main": "index.js",
+<<<<<<< HEAD
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/app/sarver.js",
+  },
+  
+=======
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/app/sarver.js"
+  },
+>>>>>>> 297bb27 (final)
+  "author": "Lubna Siraz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
