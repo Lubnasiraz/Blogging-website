@@ -1,14 +1,21 @@
 {
   "name": "blogwebsite",
   "version": "1.0.0",
-  "description": "this is my blog website",
+  "description": "A blog website ",
   "main": "index.js",
+  "engines": {
+    "node":"16.14.0",
+    "npm": "8.3.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/app/sarver.js"
-  },
+    "start":"node src/app/sarver.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+},
+  
   "author": "Lubna Siraz",
   "license": "ISC",
+  
   "dependencies": {
     "express": "^4.17.3",
     "hbs": "^4.2.0",
@@ -17,5 +24,3 @@
     "path": "^0.12.7"
   }
 }
-
-
