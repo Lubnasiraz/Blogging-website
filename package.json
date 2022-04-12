@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "A blog website ",
   "main": "index.js",
-  "engines": {
-    "node":"16.14.0",
-    "npm": "8.3.1"
-  },
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node src/app/sarver.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-},
+  },
   
   "author": "Lubna Siraz",
   "license": "ISC",
