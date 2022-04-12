@@ -36,7 +36,7 @@ app.get("/CreatePost",(req,res)=>{
 });
 
 app.get("/",(req,res)=>{
-    res.status(400).send("Please visit 'localhost:8000/home' or 'localhost:8000/post'");
+    res.status(201).render("home");
 });
 
 
